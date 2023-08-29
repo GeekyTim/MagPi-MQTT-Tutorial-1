@@ -1,3 +1,5 @@
+# An Introduction to MQTT, by Tim Richardson
+
 # Import the paho-mqtt client library.
 import paho.mqtt.client as mqtt
 
@@ -8,4 +10,4 @@ client = mqtt.Client("Sender")
 client.connect("localhost")
 
 # Publish a message to the MyHouse/garage/temperature topic
-client.publish("MyHouse/garage/temperature", "22.0")
+client.publish("MyHouse/garage/temperature", "13.2")
